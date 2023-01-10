@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Prosto+One&display=swap');
+body {
+    margin: 0;
+    display: flex;
+}
+
+.hero_img {
+    width: 100vw;
+    height: 600px;
+    object-fit: cover;
+}
+
+.hero_title {
+    position: absolute;
+    top: 5px;
+    left: 5%;
+    color:rgb(6, 6, 71);
+    font-size: 3rem;
+    font-family: 'Prosto One', cursive;
+}
+
+
+.hero_description {
+    position: absolute;
+    top: 95 px;
+    left: 10%;
+    color: rgb(6, 6, 71);
+    font-family: 'Great Vibes', cursive;
+    font-size: 2rem;
+}
