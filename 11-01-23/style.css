@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Moon+Dance&family=Oswald:wght@700&family=Prosto+One&display=swap');
+
+body {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+card {
+    background-color: rgb(112, 112, 168);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: fit-content;
+    height: 400px;
+
+} 
+
+
+
+h1 {
+    color: rgb(151, 215, 151);
+    font-family: 'Great Vibes', cursive;
+}
+
+p {
+    font-family: 'Great Vibes', cursive;
+    position: absolute;
+    top: 60px;
+
+  
+}
+
+
+img {
+    position: absolute;
+    top: 190px;
+
+}
+
+button {
+    border-radius: 100px;
+    position: relative;
+    top: 15%;
+    color: #000000;
+    background-color: rgb(7, 108, 12);
+
+}
