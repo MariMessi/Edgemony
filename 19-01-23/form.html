@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href="./style.css" />  
+    <script src="posts.js" type="module"></script>   
+</head>
+<body>
+    <header>
+        <h1>SHOP ONLINE</h1>
+        <a href="index.html">HOME</a>
+        <div class = "hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </header>
+    <!--Gruppo form-->
+    <div class="forms">
+
+    <div class = "formProd">
+        <h1>Inserisci i prodotti</h1>
+        <form id="postForm">
+            <div class ="formGroup">
+                <!-- Nome -->
+               <label for="title">Title:</label>   
+                <input name="title" type="text" id="title" 
+                required/>
+            </div>
+            <!-- Prezzo -->
+            <div class="formGroup">
+                <label for="price">Price:</label>
+                <input name="price" type="text" id="price" required/>
+            </div>
+            <!-- Immagine -->
+            <div class="formGroup">
+                <label for="image">Image:</label>
+                <input name="image" type="text" placeholder="put a correct image URL" id="image" required/>    
+            </div>
+            <!-- Descrizione -->
+            <div class="formGroup">
+                <label for="description">Description:</label>
+                <textarea name="description" id="description" required>
+                                    </textarea>
+            <!-- Submit -->
+                                    <div class="formGroup">
+                                        <input type="submit" value="Submit">
+                                    </div>
+            
+                                </div>
+
+<br> <!--secondo form-->
+ <div class = "formProd"></div>
+ <h1>Inserisci le categorie</h1>
+ <form id="categoryForm">
+    <!-- Nome -->
+    <div class="formGroup">
+        <label for ="name">Category name:</label> 
+        <input name = "name" type="text" id="categoryName" required/>
+
+    </div>
+    <!-- Immagine -->
+    <div class ="formGroup">
+        <label for ="image">Category image</label>
+        <input name="image" type="url" id="categoryImage" required/> 
+    </div>
+    <!-- Submit -->
+    <div class="formGroup">
+        <input type="submit" value="submit">
+    </div>
+
+</form>
+
+</body>
+</html>
