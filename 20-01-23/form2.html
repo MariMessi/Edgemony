@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel ="stylesheet" href="./style.css" />
+    <link rel = "stylesheet" href="./form.css" />
+    <script src="./posts.js" type="module"></script>
+</head>
+<body>
+    <header>       
+         <h1>SHOP ONLINE</h1>
+        <a href="index.html">home</a>
+        <a href="form1.html" id="form">aggiungi prodotti</a>
+        <a href="form3.html" id="form">elimina prodotti</a>
+        <div class = "hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <div class ="tendina"></div></header>
+    <form>
+        <br> <!--secondo form-->
+         <div class = "formProd"></div>
+         <h1>Insert Category</h1>
+         <form id="categoryForm">
+            <!-- Nome -->
+            <div class="formGroup">
+                <label for ="name">Category name:</label> 
+                <input name = "name" type="text" id="categoryName" required/>
+        
+            </div>
+            <!-- Immagine -->
+            <div class ="formGroup">
+                <label for ="image">Category image:</label>
+                <input name="image" type="url" id="categoryImage" required/> 
+            </div>
+            <!-- Submit -->
+            <div class="formGroup">
+                <input type="submit" value="submit">
+            </div>
+        
+        </form>
+    
+</body>
+</html>
+
+

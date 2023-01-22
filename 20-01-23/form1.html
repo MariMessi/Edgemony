@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href="./style.css" />  
+    <link rel = "stylesheet" href="./form.css" />
+    <script src="posts.js" type="module"></script>   
+</head>
+<body>
+    <header>
+        <h1>SHOP ONLINE</h1>
+        <a href="index.html">HOME</a>
+        <a href="form2.html" id="form">post form</a>
+        <a href="form3.html" id="form">elimina prodotti</a>
+        <div class = "hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <div class ="tendina"></div>
+    </header>
+    <div class="forms">
+
+    <div class = "formProd">
+        <h1>Insert Products</h1>
+        <form id="postForm">
+            <div class ="formGroup">
+                <!-- Nome -->
+               <label for="title">Title:</label>   
+                <input name="title" type="text" id="title" 
+                required/>
+            </div>
+            <!-- Prezzo -->
+            <div class="formGroup">
+                <label for="price">Price:</label>
+                <input name="price" type="text" id="price" required/>
+            </div>
+            <!-- Immagine -->
+            <div class="formGroup">
+                <label for="image">Image:</label>
+                <input name="image" type="text" placeholder="put a correct image URL" id="image" required/>    
+            </div>
+            <!-- Descrizione -->
+            <div class="formGroup">
+                <label for="description">Description:</label>
+                <textarea name="description" id="description" required>
+                                    </textarea>
+            <!-- Submit -->
+                                    <div class="formGroup">
+                                        <input type="submit" value="Submit">
+                                    </div>
+            
+                                </div>
+        </form>                                
+
+
+
+</form>
+</body>
+</html>
