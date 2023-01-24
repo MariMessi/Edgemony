@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.personalCardId {
+    width: 400px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.box {
+    border-radius: 20px;
+    box-shadow:  0 0 6px rgba(0, 0, 0, 0.35);
+    border: 2px solid rgb(238, 128, 3);
+    display: flex;
+    width: 600px;
+    height: 400px;
+    padding: 20px;
+    align-items: center;
+    background-color: rgb(247, 233, 217);
+    
+}
+
+.text-box {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 20px;
+}
+
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(238, 128, 3) ;
+}
+
+.img-box {
+    border: 3px solid rgb(243, 166, 79) ;
+    border-radius: 15px;
+    display: flex;
+    width: 350px;
+    height: 350px;
+}
+
+.img {
+    width: 200px;
+    height: 350px;
+    position: relative;
+    left: 60px;   
+}
+
+
