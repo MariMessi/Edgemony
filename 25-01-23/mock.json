@@ -1,0 +1,249 @@
+{ "guests" : [ 
+
+    {
+        "id": "1",
+        "name": "Rachel G.",
+        "gender" : "female",
+        "age": "27",
+        "roomNumber": "37",
+        "guestMessage": "A very special week at a very special place. It was all was amazing. Truly a place to feel the soul. The staff was excellent in every way. Thank you very much!",
+        "rating": "4"
+
+    },
+    {
+        "id": "2",
+        "name": "Demetrio C.",
+        "gender" : "male",
+        "age": "30",
+        "roomNumber": "104",
+        "guestMessage": "Thank you for the great weekend and the warm welcome. We had the most wonderful time and we hope to see you again in the nearest future. Best Regards",
+         "rating": "5"
+    },
+
+    {
+        "id": "3",
+        "name": "Eleonora P.",
+        "gender" : "female",
+        "age": "36",
+        "roomNumber": "98",
+        "guestMessage":"How can we be ready to leave this beautiful, beautiful place? After spending an amazing magical week here in Villa la Cassinella! Everything and especially everybody has been superb. Thank you for the excellent service, the unforgettable food and your professional approach to everything. We are looking forward to return very soon.",
+        "rating":"4"
+    },
+    {
+        "id": "4",
+        "name": "Marcel J.",
+        "gender" : "male",
+        "age": "57",
+        "roomNumber": "46",
+        "guestMessage": "They say the first Italian lake you see is the one you fall in love with, and so it was for us a few years ago when we saw the lake for the first time… Villa la Cassinella is the most romantic Villa set in the most picturesque position on the lake. It is exquisitely furnished with state of the art facilities and is a complete Italian tresor.",
+        "rating": "3"
+    },
+    {
+        "id": "5",
+        "name": "Ambra R.",
+        "gender" : "female",
+        "age": "22",
+        "roomNumber": "42",
+        "guestMessage": "To the Residence and Staff at Villa la Cassinella. Thank you for providing the most spectacular setting for asking my partner her hand in marriage! …Of course she said “yes” in arguably the finest Villa in the world!!! We wish you the success that this Villa, its history, and recent renovations so truly deserves… ",
+        "rating": "5"
+    
+    },
+    {
+        "id": "6",
+        "name": "Teresa D.",
+        "gender" : "female",
+        "age": "31",
+        "roomNumber": "22",
+        "guestMessage": "Dear Staff,It was a great pleasure to stay with you. Everything was truly amazing. It was everything we thought it would be and more. We will be back soon.",
+        "rating": "3"
+    
+    },
+    {
+        "id": "7",
+        "name": "Giovanni D.",
+        "gender" : "male",
+        "age": "28",
+        "roomNumber": "18",
+        "guestMessage": "Grazie Mille for your grace, your food, your wonderful service. Our visit was a true delight, our lodgings tremendous, and your setting truly incomparable. Ciao",
+        "rating": "2"
+    
+    },
+    {
+        "id": "8",
+        "name": "Riccardo G.",
+        "gender" : "female",
+        "age": "47",
+        "roomNumber": "12",
+        "guestMessage": "Thank you very much for your hospitality! Your level of professionalism is the highest we’ve ever seen! We felt very comfortable. Thank you.",
+        "rating": "3"
+    
+    },
+    {
+        "id": "9",
+        "name": "Alberto I.",
+        "gender" : "male",
+        "age": "29",
+        "roomNumber": "26",
+        "guestMessage": "My deepest thank for your perfect individualised care during our (too!) short stay. We had a relaxing time at Villa la Cassinella…like a dream! We hope we will come back. Lovely Regards",
+        "rating": "3"
+    },
+    {
+        "id": "10",
+        "name": "Antonella G.",
+        "gender" : "female",
+        "age": "25",
+        "married": "true",
+        "roomNumber": "19",
+        "guestMessage": "Thanks to Villa la Cassinella who made this week in heaven for the 12 of us. We loved every minute of it. The staff, the food, the beauty of the grounds – Just perfect, we hate to leave.",
+        "rating": "5"
+    },
+    {
+        "id": "11",
+        "name": "Giuseppe G.",
+        "gender" : "male",
+        "age": "30",
+        "married": "true",
+        "roomNumber": "110",
+        "guestMessage":"Thank you so much for our stay at Villa la Cassinella. The staff are delightful and our stay was magical. The experience will stay in our hearts forever. To all the wonderful staff at Villa la Cassinella. You can buy beautiful places but the food, atmosphere and the staff made our trip special.",
+        "rating":"2"
+    },
+    {
+        "id": "12",
+        "name": "Fabrizio O.",
+        "gender" : "male",
+        "age": "30",
+        "roomNumber": "95",
+        "guestMessage":"Most amazing experience ever! Thank you for the taking such wonderful care of us – everything was over the top fantastic.",
+        "rating": "3"
+    },
+    {
+        "id": "13",
+        "name": "Edoardo M.",
+        "gender" : "male",
+        "age": "26",
+        "roomNumber": "24",
+        "guestMessage":"We had the most incredible experience at the Villa – the most beautiful place on earth. Thank you for an experience we will never forget.",
+        "rating": "5"
+    },
+    {
+        "id": "14",
+        "name": "Andrea P.",
+        "gender" : "male",
+        "age": "27",
+        "roomNumber": "40",
+        "guestMessage": "We worked. We ate. We drank. We danced. We swam. Grazie Millie a million times for the wonderful care.",
+        "rating":"5"
+    },
+    {
+        "id": "15",
+        "name": "Vincenzo F.",
+        "gender" : "male",
+        "age": "32",
+        "roomNumber": "100",
+        "guestMessage": "Wonderful Time, incredible staff, breathtaking location, delicious food. Incomparable experience.",
+        "rating": "3"
+    },
+    {
+        "id": "16",
+        "name": "Giada C.",
+        "gender" : "female",
+        "age": "27",
+        "roomNumber": "37",
+        "guestMessage": "Wow! Thank you so much for allowing us to host our wedding reception at this stunning villa. It was the perfect setting for our magical day, and an enormous heartfelt thank you to the superb staff and their incredible attention to detail and for making the whole family feel so incredibly at home throughout our entire stay.",
+        "rating": "4"
+    },
+    {
+        "id": "17",
+        "name": "Francesco M.",
+        "gender" : "male",
+        "age": "23",
+        "married": "true",
+        "roomNumber": "44",
+        "guestMessage": "Thank you for all the hospitality, inspiration, amazing food, attention to details. Two days felt like a month in heaven. Thank to the staff, I don't have words to express the gratitude and appreciation. We will cherish this experience always.",
+        "rating": "3"
+    },
+    {
+        "id": "18",
+        "name": "Giuseppe C.",
+        "gender" : "male",
+        "age": "26",
+        "roomNumber": "37",
+        "guestMessage": "We came to this amazing Villa for my daughter’s wedding. A more opulent and fabulous setting surely can never be found elsewhere!!! The staff are so friendly, courteous and helpful. Words fail us! Stunning!",
+        "rating": "4"
+    },
+    {
+        "id": "19",
+        "name": "Adriana G.",
+        "gender" : "female",
+        "age": "25",
+        "roomNumber": "20",
+        "guestMessage": "A mesmerising end to our honeymoon. Even our children managed to relax. The place is beautiful beyond words, but even better are the wonderful staff and delicious food. Thank you for looking after us so well.",
+        "rating": "5"
+    },
+    {
+        "id": "20",
+        "name": "Dario F.",
+        "gender" : "male",
+        "age": "67",
+        "roomNumber": "97",
+        "guestMessage": "Wow! That's the best way to describe this perfect trip. The most beautiful Villa. The most gracious and impeccable staff. The best food….not just in Italy, but the World! Everything about our trip was amazing. We made memories to last a lifetime, but hope we get to make new ones here again sometime soon. Thank you for everything. We could not have had a better time.",
+        "rating": "2"
+    },
+    {
+        "id": "21",
+        "name": "Kevin G.",
+        "gender" : "male",
+        "age": "28",
+        "roomNumber": "107",
+        "guestMessage":"We thoroughly enjoyed our stay at Villa la Cassinella. You were all warm and attentive and we felt welcome from the start.",
+        "rating": "4"
+    },
+    {
+        "id": "22",
+        "name": "Giulia L.",
+        "gender" : "female",
+        "age": "27",
+        "roomNumber": "19",
+        "guestMessage":"Possibly the most beautiful house and views on plant earth, with a staff to match. A truly memorable week.",
+        "rating": "4"
+    },
+    {
+        "id": "23",
+        "name": "Enzo D",
+        "gender" : "male",
+        "age": "35",
+        "roomNumber": "46",
+        "guestMessage":"Great, great and more great. We have had an amazing week words cannot describe how special and wonderful our experience has been. Loved our tennis tournament, our swimming race and cocktail night!! Thanks to all who helped make our week so incredible.",
+        "rating":"3"
+    },
+    {
+        "id": "24",
+        "name": "Anna M.",
+        "gender" : "female",
+        "age": "37",
+        "roomNumber": "27",
+        "guestMessage":"Words can not explain how amazing this weekend has been. She said a big “yes” which makes me the happiest man in the world. The best weekend of my life.",
+        "rating": "4"
+    },
+    {
+        "id": "25",
+        "name": "Davide D.",
+        "gender" : "male",
+        "age": "66",
+        "roomNumber": "94",
+        "guestMessage": "Thank you all for the most stunning weekend. I have never been to a more beautiful place – and then to be accompanied by such incredible service and food…it’s almost surreal. I am going to have to take some nail scissors to my garden on my return, I am inspired",
+        "rating":"4"
+    },
+    {
+        "id": "26",
+        "name": "Mara I.",
+        "gender" : "female",
+        "age": "38",
+        "married": "true",
+        "roomNumber": "37",
+        "guestMessage": "Truly wonderful stay! Excellent food and service. What a great team of people you have here! We’ll be back… for a wedding!",
+        "rating": "5"
+    }
+    
+]
+}
