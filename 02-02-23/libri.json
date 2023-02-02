@@ -1,0 +1,49 @@
+[
+    {
+    "id": 1,
+    "title": "Fabbricante di lacrime",
+    "author": "Erin Doom",
+    "genre": "narrativa",
+    "price": 15
+  },
+
+  {
+    "id": 2,
+    "title": "Fino a quando la mia stella brillerà",
+    "author": "Liliana Segre",
+    "genre": "biografia",
+    "price": 8
+  },
+
+  {
+    "id": 3,
+    "title": "un giorno questo dolore ti sarà utile",
+    "author": "Peter Cameron",
+    "genre": "romanzo",
+    "price": 9
+  },
+
+  {
+    "id": 4,
+    "title": "una vita come tante",
+    "author": "Hanya Yanagihara",
+    "genre": "narrativa contemporanea",
+    "price": 22
+  },
+
+  {
+    "id": 5,
+    "title": "se i gatti scomparissero dal mondo",
+    "author": "Kawamura Genki",
+    "genre": "narrativa contemporanea",
+    "price": 9
+  },
+
+  {
+    "id": 6,
+    "title": "Un caffè troppo amaro",
+    "author": "Aldo Sgarano",
+    "genre": "romanzo",
+    "price": 14
+  }
+]
