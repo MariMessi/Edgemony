@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script:wght@400;700&family=Great+Vibes&family=Moon+Dance&family=Oswald:wght@700&family=Prosto+One&display=swap');
+.body {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.Header{
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    list-style: none;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(97, 40, 17);
+    cursor: pointer;
+}
+
+.home {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: blanchedalmond;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.35);
+}
+
+.h1-home {
+    color: rgb(97, 40, 17);
+}
+
+.p1-home{
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.5rem;
+    color: rgb(147, 57, 22);
+}
+.p2-home {
+  color: rgb(147, 57, 22);
+}
+
+.general-diafr{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: blanchedalmond;
+    border-radius: 20px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.35);
+    padding: 20px;
+}
+.diaframma-1 {
+    
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+}
+
+.h1-diaframma {
+    color: rgb(97, 40, 17);
+    font-size: 1.6rem;
+}
+
+
+.diaframma-img {
+    border-radius: 40px;
+    padding: 20px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.35)
+}
+
+
+.respirazione {
+    color: rgb(147, 57, 22);
+    padding: 20px;
+}
+
+.canto-div {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    padding: 10px;
+    background-color: blanchedalmond;
+    border-radius: 20px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.35);
+    padding: 20px;
+}
+
+.h1-canto {
+    color: rgb(97, 40, 17);
+    align-self: center;
+}
+
+.final {
+    color: rgb(97, 40, 17);   
+    font-size: 2rem;
+    font-weight: bold;
+    
+}
+.sing {
+    text-decoration: none;
+    color: rgb(97, 40, 17);
+    cursor: pointer;
+}
+
+.song-list {
+    color: rgb(97, 40, 17);
+    list-style: none;
+    font-size: 2rem;
+}
