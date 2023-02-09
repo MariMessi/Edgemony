@@ -1,0 +1,21 @@
+body{
+    background-color: palegoldenrod;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    color: rgb(96, 160, 96);
+}
+
+footer {
+    color: rgb(96, 160, 96);;
+}
+
+h1{ 
+    font-style: italic;
+    color: rgb(51, 87, 51);
+}
