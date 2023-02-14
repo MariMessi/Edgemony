@@ -1,0 +1,499 @@
+use db_1
+'switched to db db_1'
+db.createCollection('clienti')
+{ ok: 1 }
+db.clienti.insertOne({  name: "Harry",
+  surnme: "Potter",
+  year_of_birth: 1980,
+  alive: true,
+  house: "Gryffindor"
+})
+{
+  acknowledged: true,
+  insertedId: ObjectId("63eb9ebaa566252463ca762d")
+}
+
+db.clienti.insertOne(  {
+  name: "Hermione",
+  surnme: "granger",
+  year_of_birth: 1979,
+  alive: true,
+  house: "Gryffindor"
+}
+)
+{
+  acknowledged: true,
+  insertedId: ObjectId("63eba408a566252463ca762e")
+}
+
+db.clienti.insertOne({
+  name: "Ron",
+  surnme: "Weasley",
+  year_of_birth: 1980,
+  alive: true,
+  house: "Gryffindor"
+}
+)
+{
+  acknowledged: true,
+  insertedId: ObjectId("63eba41ca566252463ca762f")
+}
+
+db.clienti.insertOne({
+  name: "Draco",
+  surnme: "Malfoy",
+  year_of_birth: 1980,
+  alive: true,
+  house: "Slytherin"
+}
+)
+{
+  acknowledged: true,
+  insertedId: ObjectId("63eba430a566252463ca7630")
+}
+
+
+
+db.clienti.insertMany([{
+  name: "Minerva",
+  surnme: "McGonagal",
+  year_of_birth: 1925,
+  alive: true,
+  house: "Gryffindor"
+},
+{
+  name: "Cedric",
+  surnme: "Diggory",
+  year_of_birth: 1977,
+  alive: true,
+  house: "Hufflepuf"
+},
+{
+  name: "Severus",
+  surnme: "Snape",
+  year_of_birth: 1960,
+  alive: false,
+  house: "Slytherin"
+},
+{
+  name: "Rubeus",
+  surnme: "Hagrid",
+  year_of_birth: 1928,
+  alive : true,
+  house: "Gryffindor"
+},
+{
+  name: "Neville",
+  surnme: "Longbottom",
+  year_of_birth: 1980,
+  alive : true,
+  house: "Gryffindor"
+},
+{
+  name: "Luna",
+  surnme: "Lovegood",
+  year_of_birth: 1981,
+  alive : true,
+  house: "Ravenclaw"
+},
+{
+  name: "Ginny",
+  surnme: "Weasley",
+  year_of_birth: 1981,
+  alive : true,
+  house: "Gryffindor"
+},
+{
+  name: "Bellatrix",
+  surnme: "Lestrange",
+  year_of_birth: 1951,
+  alive : false,
+  house: "Slytherin"
+},
+{
+  name: "Tom",
+  surnme: "Riddle",
+  year_of_birth: 1926,
+  alive : false,
+  house: "Slytherin"
+}])
+{
+  acknowledged: true,
+  insertedIds: {
+    '0': ObjectId("63eba4e4a566252463ca7631"),
+    '1': ObjectId("63eba4e4a566252463ca7632"),
+    '2': ObjectId("63eba4e4a566252463ca7633"),
+    '3': ObjectId("63eba4e4a566252463ca7634"),
+    '4': ObjectId("63eba4e4a566252463ca7635"),
+    '5': ObjectId("63eba4e4a566252463ca7636"),
+    '6': ObjectId("63eba4e4a566252463ca7637"),
+    '7': ObjectId("63eba4e4a566252463ca7638"),
+    '8': ObjectId("63eba4e4a566252463ca7639")
+  }
+}
+
+
+db.clienti.find()
+{
+  _id: ObjectId("63eb9ebaa566252463ca762d"),
+  name: 'Harry',
+  surnme: 'Potter',
+  year_of_birth: 1980,
+  alive: true,
+  house: 'Gryffindor'
+}
+{
+  _id: ObjectId("63eba408a566252463ca762e"),
+  name: 'Hermione',
+  surnme: 'granger',
+  year_of_birth: 1979,
+  alive: true,
+  house: 'Gryffindor'
+}
+{
+  _id: ObjectId("63eba41ca566252463ca762f"),
+  name: 'Ron',
+  surnme: 'Weasley',
+  year_of_birth: 1980,
+  alive: true,
+  house: 'Gryffindor'
+}
+{
+  _id: ObjectId("63eba430a566252463ca7630"),
+  name: 'Draco',
+  surnme: 'Malfoy',
+  year_of_birth: 1980,
+  alive: true,
+  house: 'Slytherin'
+}
+{
+  _id: ObjectId("63eba4e4a566252463ca7631"),
+  name: 'Minerva',
+  surnme: 'McGonagal',
+  year_of_birth: 1925,
+  alive: true,
+  house: 'Gryffindor'
+}
+{
+  _id: ObjectId("63eba4e4a566252463ca7632"),
+  name: 'Cedric',
+  surnme: 'Diggory',
+  year_of_birth: 1977,
+  alive: true,
+  house: 'Hufflepuf'
+}
+{
+  _id: ObjectId("63eba4e4a566252463ca7633"),
+  name: 'Severus',
+  surnme: 'Snape',
+  year_of_birth: 1960,
+  alive: false,
+  house: 'Slytherin'
+}
+{
+  _id: ObjectId("63eba4e4a566252463ca7634"),
+  name: 'Rubeus',
+  surnme: 'Hagrid',
+  year_of_birth: 1928,
+  alive: true,
+  house: 'Gryffindor'
+}
+{
+  _id: ObjectId("63eba4e4a566252463ca7635"),
+  name: 'Neville',
+  surnme: 'Longbottom',
+  year_of_birth: 1980,
+  alive: true,
+  house: 'Gryffindor'
+}
+{
+  _id: ObjectId("63eba4e4a566252463ca7636"),
+  name: 'Luna',
+  surnme: 'Lovegood',
+  year_of_birth: 1981,
+  alive: true,
+  house: 'Ravenclaw'
+}
+{
+  _id: ObjectId("63eba4e4a566252463ca7637"),
+  name: 'Ginny',
+  surnme: 'Weasley',
+  year_of_birth: 1981,
+  alive: true,
+  house: 'Gryffindor'
+}
+{
+  _id: ObjectId("63eba4e4a566252463ca7638"),
+  name: 'Bellatrix',
+  surnme: 'Lestrange',
+  year_of_birth: 1951,
+  alive: false,
+  house: 'Slytherin'
+}
+{
+  _id: ObjectId("63eba4e4a566252463ca7639"),
+  name: 'Tom',
+  surnme: 'Riddle',
+  year_of_birth: 1926,
+  alive: false,
+  house: 'Slytherin'
+}
+
+
+db.clienti.findOne({name: "Minerva"})
+{
+  _id: ObjectId("63eba4e4a566252463ca7631"),
+  name: 'Minerva',
+  surnme: 'McGonagal',
+  year_of_birth: 1925,
+  alive: true,
+  house: 'Gryffindor'
+}
+
+
+db.clienti.find().sort({"Harry": -1})
+{
+  _id: ObjectId("63eb9ebaa566252463ca762d"),
+  name: 'Harry',
+  surnme: 'Potter',
+  year_of_birth: 1980,
+  alive: true,
+  house: 'Gryffindor'
+}
+{
+  _id: ObjectId("63eba408a566252463ca762e"),
+  name: 'Hermione',
+  surnme: 'granger',
+  year_of_birth: 1979,
+  alive: true,
+  house: 'Gryffindor'
+}
+{
+  _id: ObjectId("63eba41ca566252463ca762f"),
+  name: 'Ron',
+  surnme: 'Weasley',
+  year_of_birth: 1980,
+  alive: true,
+  house: 'Gryffindor'
+}
+{
+  _id: ObjectId("63eba430a566252463ca7630"),
+  name: 'Draco',
+  surnme: 'Malfoy',
+  year_of_birth: 1980,
+  alive: true,
+  house: 'Slytherin'
+}
+{
+  _id: ObjectId("63eba4e4a566252463ca7631"),
+  name: 'Minerva',
+  surnme: 'McGonagal',
+  year_of_birth: 1925,
+  alive: true,
+  house: 'Gryffindor'
+}
+{
+  _id: ObjectId("63eba4e4a566252463ca7632"),
+  name: 'Cedric',
+  surnme: 'Diggory',
+  year_of_birth: 1977,
+  alive: true,
+  house: 'Hufflepuf'
+}
+{
+  _id: ObjectId("63eba4e4a566252463ca7633"),
+  name: 'Severus',
+  surnme: 'Snape',
+  year_of_birth: 1960,
+  alive: false,
+  house: 'Slytherin'
+}
+{
+  _id: ObjectId("63eba4e4a566252463ca7634"),
+  name: 'Rubeus',
+  surnme: 'Hagrid',
+  year_of_birth: 1928,
+  alive: true,
+  house: 'Gryffindor'
+}
+{
+  _id: ObjectId("63eba4e4a566252463ca7635"),
+  name: 'Neville',
+  surnme: 'Longbottom',
+  year_of_birth: 1980,
+  alive: true,
+  house: 'Gryffindor'
+}
+{
+  _id: ObjectId("63eba4e4a566252463ca7636"),
+  name: 'Luna',
+  surnme: 'Lovegood',
+  year_of_birth: 1981,
+  alive: true,
+  house: 'Ravenclaw'
+}
+{
+  _id: ObjectId("63eba4e4a566252463ca7637"),
+  name: 'Ginny',
+  surnme: 'Weasley',
+  year_of_birth: 1981,
+  alive: true,
+  house: 'Gryffindor'
+}
+{
+  _id: ObjectId("63eba4e4a566252463ca7638"),
+  name: 'Bellatrix',
+  surnme: 'Lestrange',
+  year_of_birth: 1951,
+  alive: false,
+  house: 'Slytherin'
+}
+{
+  _id: ObjectId("63eba4e4a566252463ca7639"),
+  name: 'Tom',
+  surnme: 'Riddle',
+  year_of_birth: 1926,
+  alive: false,
+  house: 'Slytherin'
+}
+
+
+db.clienti.find().sort({"Harry": 1})
+{
+  _id: ObjectId("63eb9ebaa566252463ca762d"),
+  name: 'Harry',
+  surnme: 'Potter',
+  year_of_birth: 1980,
+  alive: true,
+  house: 'Gryffindor'
+}
+{
+  _id: ObjectId("63eba408a566252463ca762e"),
+  name: 'Hermione',
+  surnme: 'granger',
+  year_of_birth: 1979,
+  alive: true,
+  house: 'Gryffindor'
+}
+{
+  _id: ObjectId("63eba41ca566252463ca762f"),
+  name: 'Ron',
+  surnme: 'Weasley',
+  year_of_birth: 1980,
+  alive: true,
+  house: 'Gryffindor'
+}
+{
+  _id: ObjectId("63eba430a566252463ca7630"),
+  name: 'Draco',
+  surnme: 'Malfoy',
+  year_of_birth: 1980,
+  alive: true,
+  house: 'Slytherin'
+}
+{
+  _id: ObjectId("63eba4e4a566252463ca7631"),
+  name: 'Minerva',
+  surnme: 'McGonagal',
+  year_of_birth: 1925,
+  alive: true,
+  house: 'Gryffindor'
+}
+{
+  _id: ObjectId("63eba4e4a566252463ca7632"),
+  name: 'Cedric',
+  surnme: 'Diggory',
+  year_of_birth: 1977,
+  alive: true,
+  house: 'Hufflepuf'
+}
+{
+  _id: ObjectId("63eba4e4a566252463ca7633"),
+  name: 'Severus',
+  surnme: 'Snape',
+  year_of_birth: 1960,
+  alive: false,
+  house: 'Slytherin'
+}
+{
+  _id: ObjectId("63eba4e4a566252463ca7634"),
+  name: 'Rubeus',
+  surnme: 'Hagrid',
+  year_of_birth: 1928,
+  alive: true,
+  house: 'Gryffindor'
+}
+{
+  _id: ObjectId("63eba4e4a566252463ca7635"),
+  name: 'Neville',
+  surnme: 'Longbottom',
+  year_of_birth: 1980,
+  alive: true,
+  house: 'Gryffindor'
+}
+{
+  _id: ObjectId("63eba4e4a566252463ca7636"),
+  name: 'Luna',
+  surnme: 'Lovegood',
+  year_of_birth: 1981,
+  alive: true,
+  house: 'Ravenclaw'
+}
+{
+  _id: ObjectId("63eba4e4a566252463ca7637"),
+  name: 'Ginny',
+  surnme: 'Weasley',
+  year_of_birth: 1981,
+  alive: true,
+  house: 'Gryffindor'
+}
+{
+  _id: ObjectId("63eba4e4a566252463ca7638"),
+  name: 'Bellatrix',
+  surnme: 'Lestrange',
+  year_of_birth: 1951,
+  alive: false,
+  house: 'Slytherin'
+}
+{
+  _id: ObjectId("63eba4e4a566252463ca7639"),
+  name: 'Tom',
+  surnme: 'Riddle',
+  year_of_birth: 1926,
+  alive: false,
+  house: 'Slytherin'
+}
+
+db.clienti.countDocuments()
+13
+
+
+ 
+db.clienti.find({house: "Slytherin"}).itcount()
+4
+
+db.clienti.find({name: "Bellatrix"}, {house: 1})
+{
+  _id: ObjectId("63eba4e4a566252463ca7638"),
+  house: 'Slytherin'
+}
+
+
+db.clienti.updateOne({name: "Hermione"}, {$set:{gender: "female"}})
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0
+}
+
+db.clienti.updateMany({name: "Minerva"}, {name: "Bellatrix"}, {name: "Luna"}, {$set: {gender: "female"}})
+MongoInvalidArgumentError: Update document requires atomic operators
+
+
+db.clienti.deleteOne({name: "Ginny"})
+{
+  acknowledged: true,
+  deletedCount: 1
+}

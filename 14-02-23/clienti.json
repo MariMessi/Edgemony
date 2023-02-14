@@ -1,0 +1,110 @@
+[{
+  "_id": {
+    "$oid": "63eb9ebaa566252463ca762d"
+  },
+  "name": "Harry",
+  "surnme": "Potter",
+  "year_of_birth": 1980,
+  "alive": true,
+  "house": "Gryffindor"
+},{
+  "_id": {
+    "$oid": "63eba408a566252463ca762e"
+  },
+  "name": "Hermione",
+  "surnme": "granger",
+  "year_of_birth": 1979,
+  "alive": true,
+  "house": "Gryffindor",
+  "gender": "female"
+},{
+  "_id": {
+    "$oid": "63eba41ca566252463ca762f"
+  },
+  "name": "Ron",
+  "surnme": "Weasley",
+  "year_of_birth": 1980,
+  "alive": true,
+  "house": "Gryffindor"
+},{
+  "_id": {
+    "$oid": "63eba430a566252463ca7630"
+  },
+  "name": "Draco",
+  "surnme": "Malfoy",
+  "year_of_birth": 1980,
+  "alive": true,
+  "house": "Slytherin"
+},{
+  "_id": {
+    "$oid": "63eba4e4a566252463ca7631"
+  },
+  "name": "Minerva",
+  "surnme": "McGonagal",
+  "year_of_birth": 1925,
+  "alive": true,
+  "house": "Gryffindor"
+},{
+  "_id": {
+    "$oid": "63eba4e4a566252463ca7632"
+  },
+  "name": "Cedric",
+  "surnme": "Diggory",
+  "year_of_birth": 1977,
+  "alive": true,
+  "house": "Hufflepuf"
+},{
+  "_id": {
+    "$oid": "63eba4e4a566252463ca7633"
+  },
+  "name": "Severus",
+  "surnme": "Snape",
+  "year_of_birth": 1960,
+  "alive": false,
+  "house": "Slytherin"
+},{
+  "_id": {
+    "$oid": "63eba4e4a566252463ca7634"
+  },
+  "name": "Rubeus",
+  "surnme": "Hagrid",
+  "year_of_birth": 1928,
+  "alive": true,
+  "house": "Gryffindor"
+},{
+  "_id": {
+    "$oid": "63eba4e4a566252463ca7635"
+  },
+  "name": "Neville",
+  "surnme": "Longbottom",
+  "year_of_birth": 1980,
+  "alive": true,
+  "house": "Gryffindor"
+},{
+  "_id": {
+    "$oid": "63eba4e4a566252463ca7636"
+  },
+  "name": "Luna",
+  "surnme": "Lovegood",
+  "year_of_birth": 1981,
+  "alive": true,
+  "house": "Ravenclaw"
+},{
+  "_id": {
+    "$oid": "63eba4e4a566252463ca7638"
+  },
+  "name": "Bellatrix",
+  "surnme": "Lestrange",
+  "year_of_birth": 1951,
+  "alive": false,
+  "house": "Slytherin"
+},{
+  "_id": {
+    "$oid": "63eba4e4a566252463ca7639"
+  },
+  "name": "Tom",
+  "surnme": "Riddle",
+  "year_of_birth": 1926,
+  "alive": false,
+  "house": "Slytherin"
+}]
