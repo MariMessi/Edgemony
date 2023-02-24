@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* 
+.body {
+     display: flex;
+     flex-direction: row;
+     margin-top: 6px;
+     padding: 20px;
+     align-content: space-around;
+     margin-left: 70px; 
+    }*/
+.wrapper {
+    margin-left: 70px;
+    display: flex;
+    align-content: space-around;
+    padding: 20px;
+    justify-content: space-between;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aqua;
+    align-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.button {
+    margin-top: 10px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    border: 2px solid grey;
+    box-shadow: 0px 0px 4px;
+    border-left: 30px solid aqua;
+    border-radius: 5px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    justify-content: left;
+    margin-left: 30px; 
+}
+.card_completed {
+
+    border-left: 30px solid blue;
+}
+.button {
+    margin-top: 15px;
+    width: 90px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.35);
+    border: none;
+}
+.title{
+
+    padding: 2px;
+}
+
+.status{
+    
+    padding: 2px; 
+}
+
+.highPriority{
+    border-left: 30px solid red;
+}
+
+.important {
+    border-left: 30px solid orange;
+}
+
+.lowPriority {
+    border-left: 30px solid green;
+}
+
+
