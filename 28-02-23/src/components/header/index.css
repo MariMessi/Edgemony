@@ -1,0 +1,33 @@
+
+
+.Header {
+   
+    height: 50px;
+    background-color: cadetblue;
+
+}
+.listDiv{
+    margin-top: 20px;
+    padding: 4px;
+}
+.list{
+   
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: whitesmoke;
+}
+
+.anchor{
+    text-decoration: none;
+
+}
+a:visited{
+    color: whitesmoke;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(1, 126, 131);
+    text-decoration: underline;
+}
