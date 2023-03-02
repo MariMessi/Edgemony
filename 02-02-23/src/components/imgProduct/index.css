@@ -1,0 +1,15 @@
+.ImgProduct {
+    width:100vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+
+}
+.ImgProduct img {
+ position: relative;
+ width: 600px;
+ height: 300px;
+ object-fit: cover;
+}
