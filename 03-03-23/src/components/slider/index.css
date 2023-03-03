@@ -1,0 +1,25 @@
+.Slider{
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 80vh;
+    height: 500px;
+}
+
+.Slider img {
+    object-fit: cover;
+    border: 2px solid cadetblue;
+    border-radius: 25px;
+}
+
+.slider_button {
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  border: 3px solid white;
+  background-color: cadetblue;
+  color: white
+
+}
