@@ -1,6 +1,5 @@
 .PostItem {
-    display: flex;
-    height: 60px;  
+    display: flex;  
     border-bottom: 2px solid red; 
     gap: 10px;
     
