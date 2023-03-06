@@ -1,0 +1,36 @@
+.PostItem {
+    display: flex;
+    height: 60px;  
+    border-bottom: 2px solid red; 
+    gap: 10px;
+    
+
+}
+
+.PostItem__photo {
+
+    height: 30px;
+    border-radius: 25px;
+}
+
+.PostItem__content{
+    font-size: 0.9rem;
+    padding: 20px;
+}
+
+.PostItem__content span:nth-child(1) {
+    font-weight: bold;
+}
+.PostItem__content span:nth-child(2){
+    color: #536471;
+    font-size: 0.9rem;
+}
+
+.icons{
+    
+    width: 30px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

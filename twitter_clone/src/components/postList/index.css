@@ -1,0 +1,9 @@
+.PostList{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 2px solid green;
+    overflow: auto;
+    scroll-behavior: smooth;
+    justify-content: space-around;
+}
