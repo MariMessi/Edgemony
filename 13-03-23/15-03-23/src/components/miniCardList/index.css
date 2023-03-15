@@ -1,0 +1,4 @@
+.MiniCardList{
+    display: flex;
+    flex-direction: row;
+}
