@@ -1,0 +1,6 @@
+.ModalCart {
+    border: 2px solid red;
+    width: 100%;
+    background-color: white;
+    z-index: 3;
+}

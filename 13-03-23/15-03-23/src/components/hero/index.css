@@ -1,0 +1,9 @@
+.Hero{
+    height: 400px;
+}
+
+.Hero__img{
+    height: 400px;
+    width: 100vw;
+    object-fit: cover;
+    }

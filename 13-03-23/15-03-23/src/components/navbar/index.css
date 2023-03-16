@@ -1,0 +1,47 @@
+.Navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #81d8d0;
+}
+
+.navlist{
+    padding: 10px;
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+    cursor: pointer
+}
+
+.Hero__form_input{
+    padding: 5px;
+    height: 20px;
+    border-radius: 20px;
+    border: 0;
+    margin-bottom: 5px;
+  
+}
+
+
+.items{
+    cursor: pointer;
+}
+
+
+.cart {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background-color: transparent;
+    border:0;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+}
+
+
+
+.cart:hover{
+    background-color: aliceblue;
+}
+/* blu tiffany #81d8d0 */

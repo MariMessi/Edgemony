@@ -1,0 +1,10 @@
+.CardList {
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+}
+
+.CardListList{
+    display: flex;
+    gap:10px;
+}
