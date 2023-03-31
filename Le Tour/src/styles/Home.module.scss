@@ -1,0 +1,39 @@
+.Home{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    ul{
+       list-style-type: none;
+       display: flex;
+       justify-content: space-around;
+       gap: 20px;
+       align-items: center;
+       text-decoration: none;
+    }
+    li{
+
+        padding: 10px;
+        cursor: pointer;
+    }
+    input {
+       width: 100px;
+       border: 0;
+
+       &:hover{
+        background-color: antiquewhite;
+        border: 0;
+       }
+    }
+    button{
+       padding: 5px;
+       width: 100px;
+       cursor: pointer;
+       align-content: center;
+       border:0;
+       &:hover{
+        background-color: antiquewhite;
+        border: 0;
+       }
+    }
+}
