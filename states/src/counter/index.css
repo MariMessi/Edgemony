@@ -1,0 +1,46 @@
+
+
+.Counter{
+    width: 230px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 6px rgba(158, 154, 154, 0.45);
+    border-radius: 12px;
+}
+
+.increment{
+    border-radius: 12px;
+    color: #ff7b6b;
+    width: 70px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0 6px rgba(158, 154, 154, 0.35);
+
+}
+
+.increment:hover {
+    background-color: #ff7b6b;
+    color: white;
+}
+
+.decrement {
+    border-radius: 12px;
+    color: #ff7b6b;
+    width: 70px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0 6px rgba(158, 154, 154, 0.35);
+}
+.decrement:hover {
+    background-color: #ff7b6b;
+    color: white;
+}
+
+
+
