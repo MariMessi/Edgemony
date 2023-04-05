@@ -1,0 +1,17 @@
+.Hero {
+    border: 2 px solid red;
+
+    .texts{
+        border: 2px solid blue ;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .completed{
+        border: 2px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
